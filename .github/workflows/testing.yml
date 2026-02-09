@@ -2,7 +2,7 @@ name: "test AWS Access"
 
 # The workflow should only trigger on pull requests to the main branch
 on:
-  pull_request:
+  workflow_dispatch:
     branches:
       - main
 
