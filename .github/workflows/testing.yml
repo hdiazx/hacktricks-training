@@ -7,6 +7,7 @@ on:
 # Required to get the ID Token that will be used for OIDC
 permissions:
   id-token: write
+  contents: read # needed for private repos to checkout
 
 jobs:
   aws:
